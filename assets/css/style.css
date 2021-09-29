@@ -232,19 +232,28 @@ html {
     text-align: center;
 } 
 
-#slider .text-heading {
-    font-weight: 500;
-    font-size: 24px;
+#slider .text-heading-pink {
+    font-weight: 800;
+    font-size: 40px;
+    color: rgb(224, 68, 165);
+    text-shadow: 5px 5px pink;
+} 
+
+#slider .text-heading-black {
+    font-weight: 800;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 } 
 
 #slider .text-description {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 25px;
 } 
 
 
 #content .content-section {
-    width: 800px;
+    width: 1200px;
     max-width: 100%;
     padding: 64px 0 112px;
     margin-left: auto;
@@ -263,7 +272,7 @@ html {
 
 
 #content .section-sub-heading{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin-top: 25px;
     font-style: italic;
@@ -273,7 +282,7 @@ html {
 
 #content .about-text {
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
     line-height: 1.4;
 }
@@ -283,12 +292,18 @@ html {
 }
 
 #content .member-name {
-    font-size: 15px;
+    font-size: 30px;
+    color: rgb(219, 22, 170);
+}
+
+#content .NAME {
+    font-size: 30px;
+    color:  black;
 }
 
 #content .member-img {
     margin-top: 15px;
-    width: 150px;
+    width: 220px;
     border-radius: 4px;
 }
 
